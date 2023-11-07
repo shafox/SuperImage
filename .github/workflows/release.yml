@@ -8,7 +8,7 @@ on:
 jobs:
   release:
     name: Release APK
-    runs-on: self-hosted
+    runs-on: fedora
 
     steps:
       - name: Checkout code
