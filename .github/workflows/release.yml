@@ -8,7 +8,7 @@ on:
 jobs:
   release:
     name: Release APK
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
